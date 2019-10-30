@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Periodic table</title>
+    <style>
+        *{
+            margin: 0; padding:0;
+            background-color: #212932;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        body{
+            padding: 50px;
+        }
+        .firstbox{
+            width: 70px;
+            height: 90px;
+            border: 2px solid #55B7C5;
+            color: #55B7C5;
+            border-radius: 7px;
+            margin: 2px;
+            position: relative
+        }
+        .innerbox{
+            width: 35px; height: 25px;
+            background-color: #55B7C5;
+            
+            border-radius: 0 3px 0 7px;
+            
+            position: absolute;
+            top: 0px; right: 0px;
+        }
+        .element-no{
+            margin: 4px auto;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: inherit;
+            color: black;
+        }
+        .element-alpha{
+            width: 69px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .element-name{
+            width: 69px;
+            text-align: center;
+            
+            font-size: 13px;
+        }
+        .displaynone{
+            display: none;
+        }
+        .red-box{
+            border: 2px solid #E55B33;
+            color: #E55B33;
+        }
+        .red-inner{
+            background-color: #E55B33;
+            
+        }
+        .yellow-box{
+            border: 2px solid #DBE325;
+            color: #DBE325;
+        }
+        .yellow-inner{
+            background-color: #DBE325;
+        }
+        .grey-box{
+            border: 2px solid #878584;
+            color: #878584;
+        }
+        .grey-inner{
+            background-color: #878584;
+            
+        }
+        .blue-box{
+            border: 2px solid #54a0ff;
+            color: #54a0ff
+        }
+        .blue-inner{
+            background-color: #54a0ff;
+            
+            
+        }
+        .lg-box{
+            border: 2px solid #2ed573;
+            color: #2ed573;
+        }
+        .lg-inner{
+            background-color: #2ed573;
+            
+        }
+        .dg-box{
+            border: 2px solid #7EB51A;
+            color: #7EB51A;
+        }
+        .dg-inner{
+            background-color:#7EB51A ;
+            
+        }
+        .red-box{
+            border: 2px solid ;
+        }
+        .orange-inner{
+            background-color:#FEA47F ;
+        
+            
+        }
+        .orange-box{
+            border: 2px solid #FEA47F;
+            color: #FEA47F;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <!--1st row-->
+    <tr>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">1</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">H</h1>
+                            <p class="element-name">  Hydrogen</p>
+                        </div>
+            </td>
+            <td colspan="16">
+                    <div class="firstbox displaynone">
+                            
+                        </div>
+            </td>
+            
+            <td>
+                    <div class="firstbox orange-box">
+                            <div class="innerbox orange-inner">
+                                <p class="element-no">2</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">He</h1>
+                            <p class="element-name">Helium</p>
+                        </div>
+            </td>
+    </tr>
+    <!--2nd row-->
+    <tr>
+            <td>
+                    <div class="firstbox red-box">
+                            <div class="innerbox red-inner">
+                                <p class="element-no">3</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Li</h1>
+                            <p class="element-name">Lithium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox blue-box">
+                            <div class="innerbox blue-inner">
+                                <p class="element-no">4</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Be</h1>
+                            <p class="element-name">Berilium</p>
+                        </div>
+            </td>
+            <td colspan="10">
+                    <div class="firstbox displaynone">
+                          
+                        </div>
+            </td>
+            
+            <td>
+                    <div class="firstbox lg-box">
+                            <div class="innerbox lg-inner">
+                                <p class="element-no">5</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">B</h1>
+                            <p class="element-name">Boran</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">6</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">C</h1>
+                            <p class="element-name">Carbon</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">7</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">N</h1>
+                            <p class="element-name">Nitrogen</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">8</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">O</h1>
+                            <p class="element-name">Oxygen</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">9</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">F</h1>
+                            <p class="element-name">Fluorine</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox orange-box">
+                            <div class="innerbox orange-inner">
+                                <p class="element-no">10</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ne</h1>
+                            <p class="element-name">Neon</p>
+                        </div>
+            </td>
+    </tr>
+    <!--3rd row-->
+    <tr>
+            <td>
+                    <div class="firstbox red-box">
+                            <div class="innerbox red-inner">
+                                <p class="element-no">11</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Na</h1>
+                            <p class="element-name">Sodium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox blue-box">
+                            <div class="innerbox blue-inner">
+                                <p class="element-no">12</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Mg</h1>
+                            <p class="element-name">Magnesium</p>
+                        </div>
+            </td>
+            <td colspan="10">
+                    <div class="firstbox displaynone">
+                          
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox dg-box">
+                            <div class="innerbox dg-inner">
+                                <p class="element-no">13</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Al</h1>
+                            <p class="element-name">Almunium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox lg-box">
+                            <div class="innerbox lg-inner">
+                                <p class="element-no">14</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Si </h1>
+                            <p class="element-name">Silicon</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">15</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">P</h1>
+                            <p class="element-name">Phosphorus</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">16</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha"> S</h1>
+                            <p class="element-name">Sulfur</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">17</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Cl</h1>
+                            <p class="element-name">Chlorine</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox orange-box">
+                            <div class="innerbox orange-inner">
+                                <p class="element-no">18</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ar</h1>
+                            <p class="element-name">Argon</p>
+                        </div>
+            </td>
+    </tr>
+    <!--4th row-->
+    <tr>
+            <td>
+                    <div class="firstbox red-box">
+                            <div class="innerbox red-inner">
+                                <p class="element-no">19</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">K</h1>
+                            <p class="element-name">Potassium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox blue-box">
+                            <div class="innerbox blue-inner">
+                                <p class="element-no">20</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ca</h1>
+                            <p class="element-name">Calcium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">21</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Sc</h1>
+                            <p class="element-name">Scandium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">22</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ti</h1>
+                            <p class="element-name">Titanium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">23</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">V</h1>
+                            <p class="element-name">Vanadium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">24</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Cr</h1>
+                            <p class="element-name">Chromium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">25</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Mn</h1>
+                            <p class="element-name">Manganese</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">26</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Fe</h1>
+                            <p class="element-name">Iron</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">27</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Co</h1>
+                            <p class="element-name">Cobalt</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">28</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ni</h1>
+                            <p class="element-name"> Nickel</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">29</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Cu</h1>
+                            <p class="element-name">Copper</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">30</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Zn</h1>
+                            <p class="element-name">Zinc</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox dg-box">
+                            <div class="innerbox dg-inner">
+                                <p class="element-no">31</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ga</h1>
+                            <p class="element-name">Galium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox lg-box">
+                            <div class="innerbox lg-inner">
+                                <p class="element-no">32</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ge</h1>
+                            <p class="element-name">Germanium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox lg-box">
+                            <div class="innerbox lg-inner">
+                                <p class="element-no">33</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">As</h1>
+                            <p class="element-name">Arsenic</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">34</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Se</h1>
+                            <p class="element-name">Selenium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">35</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Br</h1>
+                            <p class="element-name">Bromine</p>
+                        </div>
+            </td>
+            <td>
+                <div class="firstbox orange-box">
+                        <div class="innerbox orange-inner">
+                            <p class="element-no">35</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Kr</h1>
+                        <p class="element-name">Krypton</p>
+              </div>
+        </td>
+        
+    </tr>
+    <!--5th row-->
+    <tr>
+            <td>
+                    <div class="firstbox red-box">
+                            <div class="innerbox red-inner">
+                                <p class="element-no">37</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Rb</h1>
+                            <p class="element-name">  Rubidium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox blue-box">
+                            <div class="innerbox blue-inner">
+                                <p class="element-no">38</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Sr</h1>
+                            <p class="element-name">Stontium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">39</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Y</h1>
+                            <p class="element-name">Yttrium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">40</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Zr</h1>
+                            <p class="element-name"> Zirconium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">41</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Nb</h1>
+                            <p class="element-name"> Niobium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">42</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Mo</h1>
+                            <p class="element-name">Molybd...</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">43</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Tc</h1>
+                            <p class="element-name"> Technetium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">44</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ru</h1>
+                            <p class="element-name"> Ruthenium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">45</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Rh</h1>
+                            <p class="element-name">Rhodium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">46</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Pd</h1>
+                            <p class="element-name">Palladium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">47</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ag</h1>
+                            <p class="element-name">Silver</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">48</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Cd</h1>
+                            <p class="element-name">Cadmium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox dg-box">
+                            <div class="innerbox dg-inner">
+                                <p class="element-no">49</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">In</h1>
+                            <p class="element-name">Indium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox dg-box">
+                            <div class="innerbox dg-inner">
+                                <p class="element-no">50</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Sn</h1>
+                            <p class="element-name">Tin</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox lg-box">
+                            <div class="innerbox lg-inner">
+                                <p class="element-no">51</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Sb</h1>
+                            <p class="element-name">Antimony</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox lg-box">
+                            <div class="innerbox lg-inner">
+                                <p class="element-no">52</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Te</h1>
+                            <p class="element-name">Tellurium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">53</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">I</h1>
+                            <p class="element-name">Iodine</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox orange-box">
+                            <div class="innerbox orange-inner">
+                                <p class="element-no">54</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Xe</h1>
+                            <p class="element-name">Xenion</p>
+                        </div>
+            </td>
+        </tr>
+    <!--secod last row-->
+    <tr>
+            <td>
+                    <div class="firstbox red-box">
+                            <div class="innerbox red-inner">
+                                <p class="element-no">55</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Cs</h1>
+                            <p class="element-name">Cesium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox blue-box ">
+                            <div class="innerbox blue-inner">
+                                <p class="element-no">56</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ba</h1>
+                            <p class="element-name">Berium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox displaynone">
+                            <div class="innerbox">
+                                <p class="element-no"></p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">H</h1>
+                            <p class="element-name">  Hydrogen</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">72</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Hf</h1>
+                            <p class="element-name">Hafnium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">73</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ta</h1>
+                            <p class="element-name">Tantium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">74</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">W</h1>
+                            <p class="element-name">Tungsten</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">75</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Re</h1>
+                            <p class="element-name">Rhenium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">76</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Os</h1>
+                            <p class="element-name">Osmium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">77</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Ir</h1>
+                            <p class="element-name">Idridium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">78</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Pt</h1>
+                            <p class="element-name">Platinum</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">79</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Au</h1>
+                            <p class="element-name">Gold</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox">
+                            <div class="innerbox">
+                                <p class="element-no">80</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Hg</h1>
+                            <p class="element-name">Mercury</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox dg-box">
+                            <div class="innerbox dg-inner">
+                                <p class="element-no">81</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Tl</h1>
+                            <p class="element-name">Thallium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox dg-box">
+                            <div class="innerbox dg-inner">
+                                <p class="element-no">82</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Pb</h1>
+                            <p class="element-name">Lead</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox dg-box">
+                            <div class="innerbox dg-inner">
+                                <p class="element-no">83</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Bi</h1>
+                            <p class="element-name">Bismuth</p>
+                        </div>
+            </td>
+            <td> 
+                    <div class="firstbox lg-box">
+                            <div class="innerbox lg-inner">
+                                <p class="element-no">84</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Po</h1>
+                            <p class="element-name">Polenium</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox yellow-box">
+                            <div class="innerbox yellow-inner">
+                                <p class="element-no">85</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">At</h1>
+                            <p class="element-name">Astatine</p>
+                        </div>
+            </td>
+            <td>
+                    <div class="firstbox orange-box">
+                            <div class="innerbox orange-inner">
+                                <p class="element-no">86</p>
+                            </div>
+                            <br><br>
+                            <h1 class="element-alpha">Rn</h1>
+                            <p class="element-name">Radon</p>
+                        </div>
+            </td>
+        </tr>
+    <!--last row-->
+    <tr>
+        <td>
+                <div class="firstbox red-box">
+                        <div class="innerbox red-inner">
+                            <p class="element-no">87</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Fr</h1>
+                        <p class="element-name">Francium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox blue-box">
+                        <div class="innerbox blue-inner">
+                            <p class="element-no">88</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Ra</h1>
+                        <p class="element-name">Radium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox displaynone">
+                        <p>*</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">104</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Rf</h1>
+                        <p class="element-name">Rutherfo...</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">105</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Db</h1>
+                        <p class="element-name">Debium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">106</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Sg</h1>
+                        <p class="element-name">Seabor...</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">107</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Bh</h1>
+                        <p class="element-name">Bohrium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">108</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Hs</h1>
+                        <p class="element-name">Hassium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">109</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Mt</h1>
+                        <p class="element-name">Meitnerium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">110</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Ds</h1>
+                        <p class="element-name">Darmsta...</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">111</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Rg</h1>
+                        <p class="element-name">Reontg...</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox">
+                        <div class="innerbox">
+                            <p class="element-no">112</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Cn</h1>
+                        <p class="element-name">Copernic..</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox dg-box">
+                        <div class="innerbox dg-inner">
+                            <p class="element-no">113</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Nh</h1>
+                        <p class="element-name">Nihonium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox dg-box">
+                        <div class="innerbox dg-inner">
+                            <p class="element-no">114</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Fl</h1>
+                        <p class="element-name">flerovium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox dg-box">
+                        <div class="innerbox dg-inner">
+                            <p class="element-no">115</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Mc</h1>
+                        <p class="element-name">Moscovium</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox dg-box">
+                        <div class="innerbox dg-inner">
+                            <p class="element-no">116</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Lv</h1>
+                        <p class="element-name">Livermo...</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox yellow-box">
+                        <div class="innerbox yellow-inner">
+                            <p class="element-no">117</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Ts</h1>
+                        <p class="element-name">Tennes...</p>
+                    </div>
+        </td>
+        <td>
+                <div class="firstbox orange-box">
+                        <div class="innerbox orange-inner">
+                            <p class="element-no">118</p>
+                        </div>
+                        <br><br>
+                        <h1 class="element-alpha">Og</h1>
+                        <p class="element-name">Oganesson</p>
+                    </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
